@@ -1,0 +1,127 @@
+/* Inserta tu CSS aqui */
+/* */ 
+/**{outline: 1px solid rgba(225,0,0, 0.4);
+
+}*/
+body{
+	text-align: center;
+}
+ .header ul{
+  position: fixed;
+  z-index: 100;
+  width: 932px;
+}
+
+
+.header  li{
+	padding: 10px;
+	display: inline-block;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	
+}
+.header li a{
+	text-decoration: none;
+	list-style: none;
+	color: #6d6e71;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.cont-gener{
+	padding-top: 118px;
+}
+.banner{
+	position: relative;
+}
+.img-banner{
+	width: 100%;
+}
+.logo{
+	position: absolute;
+	top: 30px;
+}
+.banner h1{
+    color: #fff;
+    top: 100px;
+    left: 348px;
+    position: absolute;
+}
+.banner p{
+	color: #fff;
+    top: 200px;
+    left: 430px;
+    position: absolute;
+    font-size: 20px;
+}
+#info{
+	background-image: url(../images/tile1.png);
+}
+h1{
+	color: #a8258d;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+ .col-4{
+ 	padding-left: 100px;
+
+ }
+.col-4 img{
+	width: 100%;
+	padding: 4px;
+	border: 1px solid #ddd;
+}
+.col-8 p{
+	text-align: left;
+	padding-right: 50px;
+}
+.favorita{
+	color: #a8258d;
+	padding-top: 80px;
+}
+.here{
+	color: #a8258d;
+	font-size: 16px;
+	margin: 27px;
+}
+.zona-favorira{
+	height: 355px;
+	overflow: auto;
+}
+
+.my-favority .img-gat{
+    width: 750px;
+}
+.row .col-3 img{
+	width: 100%;
+	border-radius: 100%;
+	padding: 4px;
+	border: 1px solid #a8258d;
+	margin-bottom: 50px;
+}
+.zona-contactame{
+	overflow: auto;
+	height: 250px;
+}
+ .pie{
+ 	background-image: url(../images/tile2.png);
+ 	
+ }
+ .pie ul{
+
+ }
+ .pie img{
+ 	width: 100px;
+ 	height: 100px;
+ 	margin-bottom:50px; 
+ }
+ .pie .contac{
+ 	color: #a8258d;
+ 	padding-top: 50px;
+    padding-bottom: 30px;
+ }
+.pie ul li{
+	display: inline-block;
+}
+.pie a{
+	margin: 10px;
+}
