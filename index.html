@@ -2,82 +2,69 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>PORTAFOLIO</title>
+  <title>Portafolio</title>
   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/grid-system.css">
   <link rel="stylesheet" href="css/main.css">
-
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
 <div class="container">
-<div class="header">
-  		<ul class="menu">
-  			<li><a href="#inicio"><b>SOBRE MI</b></a></li>
-  			<li><a href="#favoritas"><b>RESUMEN</b></a></li>
-  			<li><a href="#favoritas"><b>PROYECTOS</b></a></li>
-  			<li><a href="#contactos"> <b>CONTACTAME</b></a></li>
-  		</ul>
-  	</div>
-</div>
+ <header>
+ 	<div class="head row"> <!--Comienza head-->
+ 		<ul class="lista-sin-estilo">
+ 			<a href="#datos"><li>ACERCA DE MÍ</li></a>
+ 			<a href="#favoritos"><li>PROYECTOS</li></a>
+ 			<a href="#contacto"><li>CONTACTO</li></a>
+ 		</ul>
+ 	</div>    <!--Termina head-->
+ </header>
+  <section class="row">
+  <div class="portada ">   <!--Comienza portada-->
+  <div class="cuadrado">
+    <h1>DULCE MARIA</h1>
+    <h2>"Si se puede imaginar,se puede programar"</h2>
+  </div>  
+  </div>  <!--Termina portada-->
+ </section>
+ <section id="datos">
+ 	<div class="row datos" >   <!--Comienza datos-->
+ 	<div><h1>ACERCA DE MÍ</h1></div> 	
+ 	<div class="col-3"><img src="images/coala.jpg"></div>
+ 	<div class="col-9"><p> Mi formación en Laboratoria me ha permitido aprender y conocer el lenguaje de marcado HTML, para crear las páginas web (versión HTML5,el lenguaje CSS (hojas de estilo) para dar formato y presentación a las páginasy aprender de forma básica el lenguaje de programación Javascript, para dotar de efectos visuales e interactividad a las páginas web.Además conocer aspectos prácticos importantes: sitios de alojamiento, reglas de usabilidad y accesibilidad en el diseño de páginas web. </p>
+ 	</div>	
+ 	</div>      
+ </section>
+ <section id="favoritos">
+ 	<div class="row favoritos">   <!--Comienza favoritos-->
+ 		<div><h1> MIS PROYECTOS</h1></div>
+ 		<h4>AQUÍ ESTÁN MIS PROYECTOS</h4>
+ 		<div id="imagenes">
+ 		   <!-- <ul class="lista-sin-estilo row"> -->
+      <nav class="col-4">
+ 			   <a href="https://github.com/dulcecolquehuanca"><img src="images/1.png"width="400" height="400"/></a>
+      </nav>
+      <nav class="col-4">
+ 			   <a href="https://github.com/dulcecolquehuanca"><img src="images/2.png"width="400" height="400"/></a>
+      </nav>
+      <nav class="col-4">
+ 			   <a href="https://github.com/dulcecolquehuanca"><img src="images/3.png"width="400" height="400"/></a>
+      </nav>
+ 			</ul>
+ 		</div>
+ 	</div>           <!--Termina favoritos-->
+ </section>
+ <section id="contacto">
+  <div class="row pie">    <!--Comienza pie-->
+  	<div><h1> CONTÁCTAME</h1></div>
+  	<ul class="lista-sin-estilo">
+  		<li><a href="https://www.facebook.com/maria.colquehuancaquispe"><img src="images/facebook.png"width="50" height="50"/></a></li>
+      <li>mariacolquehuanca1992@gmail.com</li>
+  	</ul>
 
-  <div class="container cont-gener">
-  	
-	<div class="banner" id="inicio">
-  		<img  class="img-banner" src="images/slider2.jpg"> 
-  		<h1><b>DULCE MARÍA COLQUEHUANCA QUISPE</b></h1>
-  		<p>"Si se puede imaginar,se puede programar"</p>
-	</div>
-
-	 
-
-  	<div class="row " id="info">
-  		<h1><b>Sobre mi</b></h1>
-  		<div class="col-4">
-  		<img src="images/foto.png">
-  		</div>
-  		<div class="col-8">
-  			<p>Mi formación en Laboratoria me ha permitido aprender y conocer el lenguaje de marcado HTML, para crear las páginas web (versión HTML5 y referencias a versiones anteriores HTML 4 y XHTML),el lenguaje CSS (hojas de estilo) para dar formato y presentación a las páginas (CCS2 y CSS3)y aprender de forma básica el lenguaje de programación Javascript, para dotar de efectos visuales e interactividad a las páginas web.Además conocer aspectos prácticos importantes: sitios de alojamiento, reglas de usabilidad y accesibilidad en el diseño de páginas web.
-  			</p>
-  		</div>
-  	</div>
-  	<div class="zona-favorira">
-  		<div class="my-favority" id="favoritas" >
-		<h2 class="favorita">MIS PROYECTOS </h2>
-		<p class="here"><b>AQUI MIS PROYECTOS FAVORITOS</b> </p>
-		<div class="container img-gat">
-			<div class="row">
-			<div class="col-3">
-				<img src="images/html.png">
-				
-			</div>
-			<div class="col-3">
-				<img src="images/css.jpg">
-				
-			</div>
-			<div class="col-3">
-				<img src="images/css.jpg">
-				
-			</div>
-			<div class="col-3">
-				<img src="images/js.png">
-				
-			</div>
-			</div>
-		</div>
-		</div>
-	</div>	
-	
-	<div class="zona-contactame">
-		<div class="pie" id="contactos">
-			<h2 class="contac"><b>Contactame</b></h2>
-			<ul>
-				<li><a href=""> <img src="images/twitter.png"></a></li>
-				<li><a href=""> <img src="images/facebook.png"></a></li>
-				<li><a href=""> <img src="images/linkedin.png"></a></li>
-			</ul>
-		</div>
-	</div>
-	
-  </div>
+  </div>    <!--Termina pie-->
+ </section>
+</div> 
 </body>
 </html>
