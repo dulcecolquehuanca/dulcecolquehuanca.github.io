@@ -1,0 +1,120 @@
+/**{outline: 1px solid rgba(225,0,0, 0.4);
+
+}*/
+$color_title:#f5b23e;
+$color_parrafo:#fff;
+$color_body:#2d2735;
+$color_parrafo:#fff;
+$color_fondo:#1c1821;
+@import "menu";
+body{
+	background:$color_body;
+}
+h1{
+	color:$color_title;
+}
+h3{
+	color:$color_title;
+}
+p{
+	color:$color_parrafo;
+	padding:10px;
+}
+i{
+	color:$color_parrafo;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius:100%;
+	padding:7px;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+//tipografia
+
+$Courgette:"Courgette";
+$OpenSans:"Open Sans";
+
+//fuentes
+$texto12:12px;
+$texto45:80px;
+
+
+// formatos
+$cursiva:italic;
+$auto:auto;
+
+
+
+// *{outline:1px solid red;}
+
+h1,h2,h3,h4,h5{ font-family:$Courgette; color:$color_title;}
+p{ font-family:$OpenSans; font-style:$cursiva}
+
+//utilities
+.text-center{text-align:center;}
+.margin-auto{margin:auto;}
+.w-100{ width:100%;}
+.mt-3{margin-top:30%;}
+
+//
+.border-white{border:1px solid $color_parrafo;}
+.text-white{color: $color_parrafo;}
+.text-tittle{color: $color_title;}
+.bg-black{ background:$color_fondo;}
+.bg-morado{ background:$color_body;}
+.cursiva {font-style:$cursiva;}
+.margin-menu{margin:1% 4%;}
+// .margin-menu ul {padding-top:3%;}
+// .margin-menu ul{ margin-top:2%;}
+.margin-menu li {margin:auto 1%;}
+.texto12{font-size:$texto12;}
+
+
+.hero{
+	padding-top:50px;
+}
+.hero-section{ 
+	background:url(../image/header-image.jpg) 20% 30%; 
+	width:100% ;
+	height:350px; 
+	background-size:cover;
+	position:relative; margin:0 0 2% 0;}
+.hero-section div{  
+	position:absolute; 
+	top:15%;left:15%; 
+	bottom:15%; right:15%;}
+.texto-hero{
+	font-size:$texto45;
+	color:$color_title;}
+
+.bg-plomo{background:$color_fondo;}
+
+.flowers div div{ margin-top:4%;}
+
+.cont-img-now{
+	background:url(../image/image4.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 450px;
+}
+.About,.cont-now{
+	background:$color_fondo;
+}
+.img-about{
+	background:url(../image/kew_gardens_3_500x500.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 450px;
+}
+
+input{
+	background: rgba(255, 255, 255, 0.2);
+	border:7px solid $color_fondo;
+	color:$color_parrafo;
+	width: 100%;
+  	height: 40px;
+}
+footer{
+	background:$color_fondo;
+	height:100px;
+}
+
